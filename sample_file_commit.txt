@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+lq
+=======
+Edit of the sample file.
+>>>>>>> 97ddafc4d553315ded2b8c339973a8a5c4295947
+what is this shiz?
