@@ -3,4 +3,5 @@ lq
 =======
 Edit of the sample file.
 >>>>>>> 97ddafc4d553315ded2b8c339973a8a5c4295947
-what is this shiz?
+Two can play at that game
+>>>>>>  2068b89049b8a6d5b966211c9bbe7138 
