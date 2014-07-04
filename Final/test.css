@@ -1,0 +1,51 @@
+/*
+css Problem 2. Kent’s Media Profile
+*/
+
+.header{
+background-color:green;
+}
+img{
+
+}
+.navbar-wrapper {
+    background: #A0D8F1;
+    margin: 0 !important;
+    height: 110px;
+	
+}
+.navContainer{
+font-size: 1.2rem;
+align-self: flex-end;
+margin-bottom: 0.5rem;
+display: flex;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+justify-content: flex-end;
+}
+li a {
+text-decoration: none;
+padding: 0.5rem;
+display:inline;
+}
+
+.article{
+display: flex;
+-ms-flex-flow: row wrap;
+flex-flow: row wrap;
+justify-content: center;
+}
+
+.menuContainer {
+display:inline;
+}
+
+
+
+
+
+
+
+
+
+
