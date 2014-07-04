@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Softuni-детска градина</title>
+	<base href="http://megashop.bg/oki/">
+	<link rel="stylesheet" type="text/css" href="test2.css">
+	<meta charset="utf-8" />
+</head>
+<body>	
+    
+		    <div class="logo"><a href="index.html" ><img src="softuniLOGoNakov.png"></a></div>
+			<div class="header"></div>
+			<nav>
+				<ul>
+					<li><a href="novini.html" style="">Новини</a></li>
+					<li><span>За градинката</span>
+						<ul>
+						<li><a  href="za_nas.html">За нас</a></li>
+                        <li><a  href="planove.html">Планове</a></li>
+						<li><a  href="partniori.html">Партньори</a></li>
+						</ul>
+					</li>
+					<li><span>Обучения</span>
+						<ul>
+							<li>Задължителни обучения</li>
+								<ul>
+									<li><a href="obucheniePKP.html">ПКП</a></li>
+									<li><a href="obuchenieLeksika.html">Лексика</a></li>
+								</ul>
+							<li>Допълнителни обучения</li>
+								<ul>
+									<li><a href="peenie.html">Пеенье</a></li>
+									<li><a href="palatka.html">Как да скочим върху палатка(Юли 2015)</a></li>
+								</ul>
+						</ul>
+					</li>
+					<li><a href="kontakti.html">Контакти</a></li>
+				</ul>
+			</nav>
+	
+	
+</body>
+</html>
