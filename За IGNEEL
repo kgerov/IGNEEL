@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IGNEEL</title>
+	<base href="http://megashop.bg/oki/">
+	<link href="//fonts.googleapis.com/css?family=Playball:400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="test2.css">
+	<meta charset="utf-8" />
+</head>
+<body>	
+
+		    <div class="logo"><a href="index.html" ><img src="softuniLOGoNakov.png"></a></div>
+			<div class="clr">&nbsp;</div>
+	<div class="content">
+		<div class="Header_title">Koи са IGNEEL<!--position abselute--></div>
+		<div class="clr">&nbsp;</div>
+		<div class="centralnoPole">
+	<footer  class="footh">
+		<div class="footh1" ><h2>За IGNEEL   </h2><a href="">Кои са те?</a></div>
+			<div class="footh1"><h2>Нашите приятели:   </h2>
+			<a href="http://chipolino.com/">Chipolino</a><br><a href="https://softuni.bg/">Software University</a>
+			</div>
+    </footer>	
+</body>
+</html>
