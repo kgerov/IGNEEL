@@ -1,0 +1,414 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    
+
+
+    <title>Начало - Софтуерен университет</title>
+
+    <link href="/Content/bootstrap/css?v=THER5XG4hyMnZIqomngRLKPhCGCEsfQ7qQirPcgby3U1" rel="stylesheet"/>
+<link href="/Content/kendo/css?v=DV0k8Hx0p6p01ql58FDBk9LhVPZdl652mviUoD0AB_c1" rel="stylesheet"/>
+<link href="/Content/css?v=gbMaVfK5zHsQcYSVxkM34T3ygW0USeoi2-vJZlv3KHY1" rel="stylesheet"/>
+
+    <script src="/bundles/modernizr?v=2Cd8JeME-7hc5hAzdQ_aEd88z64SuGgeJlzBbXxfQi01"></script>
+<script src="/bundles/jquery?v=Dmm9u7bIqbsN1IkGM6aqCJQJf0EL3voOdu3IPl12Ptw1"></script>
+<script src="/bundles/jqueryval?v=zHR5xNAOwnaov2iocuaopHHza7Y7HRIZxluyCmcna5w1"></script>
+<script src="/bundles/bootstrap?v=XkxfR798CUJPhMhSd0B8VYgZWSNOTtLvz6047jf84wQ1"></script>
+<script src="/bundles/kendo?v=LeEgdJj6mLKMo7mWt4jt9pdurCQSIoj4x8eJFg5oSrs1"></script>
+
+    <script src="/Scripts/jquery.signalR-2.0.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+
+    <script src="/bundles/global?v=lGA_l5bjB1ju3-g1-hjium1VFuQnsb6lFyaqPFfdkxs1"></script>
+
+    
+    
+    <link href="/Content/homePage.css" rel="stylesheet"/>
+
+
+
+
+    <meta name="description" content="Software University" /> 
+</head>
+
+<body>
+    <header class="navbar-wrapper">
+        <div class="container">
+            <div class="navbar navbar-static-top" role="navigation">
+                <div class="col-sm-12">
+
+                    <nav class="navbar-header">
+                        <a class="navbar-brand" href="/"><span>Software University</span><div class="beta">beta</div></a>
+                    </nav>
+
+                    <div class="menuContainer">
+                        <nav class="navContainer">
+                            <ul class="nav navbar-nav navix">
+                                <li class="loginSearchLI">
+                                    <div class="logIn">
+
+                                        <div class="profileBox">
+                                            
+    <ul id="logInBtn">
+        <li id="logInContainer"><a href="/account/authenticate" id="loginLink">Вход</a></li>
+    </ul>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li><a href="/news">Новини</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        За университета
+                                        <strong class="caret"></strong>
+                                    </a>
+
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/about">За нас</a></li>
+                                        <li><a href="/professions">Професии</a></li>
+                                        <li><a href="/plans">Планове</a></li>
+                                        <li><a href="/partner-universities">Университети-партньори</a></li>
+                                        <li><a href="/trainers">Преподаватели</a></li>
+                                        <li><a href="/dorms">Общежития</a></li>
+                                        <li><a href="/apply">Кандидатстване</a></li>
+                                    </ul>
+                                </li>
+
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            Обучения
+                                            <strong class="caret"></strong>
+                                        </a>
+
+                                        <ul class="dropdown-menu">
+                                            <li><a class="custom-dropdown-header" href="/trainings/courses/list">Курсове</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/1">Java Basics май 2014</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/2">C# Basics март 2014</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/1036">C# Basics май 2014</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/1048">C# Basics юли 2014</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/3">Web Fundamentals (HTML + CSS) май 2014</a></li>
+                                                    <li><a href="/trainings/coursesinstances/details/6">Teamwork and Personal Skills май 2014</a></li>
+                                            <li><a class="custom-dropdown-header" href="/trainings/fasttracks">Fast track курсове</a></li>
+                                                    <li><a href="/trainings/fasttracks/details/1034">HTML/CSS (June 2014)</a></li>
+                                                    <li><a href="/trainings/fasttracks/details/1033">PHP/MySQL (June 2014)</a></li>
+
+                                            <li><a class="custom-dropdown-header" href="/trainings/seminars/list">Семинари</a></li>
+                                                    <li><a href="/trainings/seminars/details/1045">First steps with Microsoft SQL Server</a></li>
+                                                    <li><a href="/trainings/seminars/details/1049">SEO оптимизация, социални мрежи, дигитален маркетинг</a></li>
+                                        </ul>
+                                    </li>
+
+                                <li><a href="/companies">Работа</a></li>
+                                <li><a href="/forum">Форум</a></li>
+                                <li><a href="/contacts">Контакти</a></li>
+
+
+                            </ul><!-- /nav navbar-nav navix -->
+
+                        </nav><!-- /navbar-collapse collapse -->
+                        <a href="javascript:;" id="toggleNavigation">
+                            <svg x="0px" y="0px" width="35px" height="25px" viewBox="0 0 35 25" enable-background="new 0 0 35 25" xml:space="preserve">
+                            <defs>
+            </defs>
+                            <line id="topLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="2.5" x2="32.5" y2="2.5" />
+                            <line id="middleLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="12.5" x2="32.5" y2="12.5" />
+                            <line id="bottomLine" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="2.5" y1="22.5" x2="32.5" y2="22.5" />
+        </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="body-content">
+
+        
+
+
+
+<div id="this-carousel-id" class="carousel slide">
+    <!-- class of slide for animation -->
+    <div class="carousel-inner">
+        <div id="slideOne" class="item active">
+            <!-- class of active since it's the first item -->
+            <div class="sliderContainer clearfix">
+                <div class="carousel-caption">
+                    <h1>Достъпно и качествено софтуерно образование</h1>
+                    <p>Нашата мисия е да направим хората, които обучаваме, истински професионалисти в софтуерната индустрия и да им съдействаме в намирането на работа.</p>
+
+                    <a id="linkLeft" href="/apply">
+                        Кандидатствай
+                        <span data-hover="Професии"></span>
+                    </a>
+
+                    <a id="linkRight" href="/trainings/fasttracks">
+                        Fast track курсове
+                    </a>
+                </div><!--/carousel-caption-->
+                <div id="chart"></div>
+            </div><!--/sliderContainer-->
+        </div>
+
+        <div id="slideTwo" class="item">
+            <div class="sliderContainer">
+                <div class="carousel-caption">
+                    <h1>Качествен, съвременен образователен център, ориентиран към практиката.</h1>
+                    <p>Развитие на младите таланти в един от водещите сектори в България - информационните технологии. Алтернатива на държавните университети.</p>
+                    <a id="linkLeft" href="/plans">
+                        Планове
+                    </a>
+                </div><!--/carousel-caption-->
+                <div id="iconSecondSlide"></div>
+            </div>
+        </div><!-- /slideTwo -->
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls below href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev"></a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next"></a>
+</div><!-- /.carousel -->
+<!--<div class="heroUnit">
+    <div class="heroUnitInner">
+        <h1>Достъпно и качествено софтуерно образование</h1>
+        <p>Нашата мисия е да направим хората, които обучаваме, истински професионалисти в софтуерната индустрия и да им съдействаме в намирането на работа.</p>
+        <a href="/users/candidate/register">Кандидатствай</a>
+        <a href="/professions">Професии</a>
+        <div class="loaders clearfix">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a id="arrowLeft" href="#"></a>
+        <a id="arrowRight" href="#"></a>
+    </div>
+</div><!-- /heroUnit -->
+
+<div class="content">
+    
+
+
+
+
+    <!-- Three columns of text below the carousel -->
+    <div class="container news">
+        <section class="col-sm-4">
+            <h3>За университета</h3>
+            <img id="illustration" src="../../Content/design/universityIcons.svg" />
+            <p class="aboutText">
+                За нас, както и за цялата софтуерна индустрия, е най-важен <strong>практическият опит</strong>.
+                Нашата мисия е да направим хората, които обучаваме,
+                <strong>истински професионалисти в софтуерната индустрия</strong>
+                и да им съдействаме в <strong>намирането на работа</strong>.
+                <br />
+                <br />
+                Учебният план, по който се провеждат занятията в Софтуерния университет, се състои от няколко нива –
+                едно подготвително ниво за приемния изпит (2 месеца) и 6 нива обучение по програмиране, технологии
+                и разработка на софтуер (всяко по 4 месеца). Предоставя се възможност за получаване на университетска
+                <strong>диплома за висше образование</strong> от един от нашите университети-партньори след
+                допълнително обучение при тях с продължителност 1 или 2 години.
+            </p>
+
+            <div class="actionsLinks">
+                <a class="candidateBtn" href="/apply" class="btn btn-success pull-left">Кандидатствай</a>
+                <a class="aboutUsBtn" href="/about" class="btn btn-info pull-right">За нас</a>
+            </div><!--/actionsLinks-->
+        </section>
+
+        <section class="col-sm-4 upcomingTracks">
+                <h3>Fast Track курсове</h3>
+                <div class="latestFastTrackImage">
+                    <img src="../../Content/design/fast-tracks-home-page.png" alt="Последен fast track курс" />
+                    <div class="overlay">
+                        <a href="/trainings/fasttracks/details/1033">
+                            Най-скорошен курс | <strong>PHP/MySQL (June 2014)</strong>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    Fast Track курсовете представляват ускорени курсове, които ви дават <strong>максимално много знания за по-кратко време</strong>.
+                    Материалът се усвоява лесно поради програмата ни, която включва <strong>много упражнения</strong>.
+                </div>
+                <h4 class="upcommingCoursesHeading">Предстоящи и активни курсове</h4>
+<div class="upcommingFastTracks clearfix">
+    <span class="pull-left">PHP/MySQL (June 2014)</span>
+    <a href="/trainings/fasttracks/details/1033">Виж</a>
+</div>
+<div class="upcommingFastTracks clearfix">
+    <span class="pull-left">HTML/CSS (June 2014)</span>
+    <a href="/trainings/fasttracks/details/1034">Виж</a>
+</div>
+            <div>
+                <a class="aboutUsBtn seeAll" href="/trainings/fasttracks">Виж всички</a>
+            </div>
+        </section>
+
+
+        <section class="col-sm-4 news_list">
+            <h3>Новини</h3>
+
+
+<div class="articleContainer">
+    <div class="col-xs-4">
+        <a href="/news/application-deadline-extended-july" class="imageLink">
+            <img src="/Files/Publications/2014/06/3-of-july-calendar-icon-Download-Royalty-free-Vector-File-EPS-14332_17222654.jpg" width="250" height="100" alt="Ниво #0 стартира на 5 юли image">
+        </a>
+    </div><!--/col-xs-3-->
+
+    <section class="col-xs-8 newsTitle">
+        <h4>
+            <a href="/news/application-deadline-extended-july" class="imageLink">
+                Ниво #0 стартира на 5 юли
+            </a>
+
+            <small class="date">
+                <span class="iconPostDate"></span>18/06/2014
+            </small>
+        </h4>
+    </section><!--/col-xs-9-->
+</div>
+
+<div class="articleContainer">
+    <div class="col-xs-4">
+        <a href="/news/summer-vacation" class="imageLink">
+            <img src="/Files/Publications/2014/06/images_154549699.jpg" width="250" height="100" alt="Лятна почивка + график за ниво #1 image">
+        </a>
+    </div><!--/col-xs-3-->
+
+    <section class="col-xs-8 newsTitle">
+        <h4>
+            <a href="/news/summer-vacation" class="imageLink">
+                Лятна почивка + график за ниво #1
+            </a>
+
+            <small class="date">
+                <span class="iconPostDate"></span>13/06/2014
+            </small>
+        </h4>
+    </section><!--/col-xs-9-->
+</div>
+
+<div class="articleContainer">
+    <div class="col-xs-4">
+        <a href="/news/softuni-conf-may-2014-feedback" class="imageLink">
+            <img src="/Files/Publications/2014/06/softuni-conf-news_164223324.jpg" width="250" height="100" alt="Feedback от СофтУни Конф Май 2014 image">
+        </a>
+    </div><!--/col-xs-3-->
+
+    <section class="col-xs-8 newsTitle">
+        <h4>
+            <a href="/news/softuni-conf-may-2014-feedback" class="imageLink">
+                Feedback от СофтУни Конф Май 2014
+            </a>
+
+            <small class="date">
+                <span class="iconPostDate"></span>02/06/2014
+            </small>
+        </h4>
+    </section><!--/col-xs-9-->
+</div>
+
+<div class="articleContainer">
+    <div class="col-xs-4">
+        <a href="/news/new-fast-track-courses" class="imageLink">
+            <img src="/Files/Publications/2014/05/student-fast-track-course_13435276.png" width="250" height="100" alt="Нови Fast track курсове: запишете се до 4 юни image">
+        </a>
+    </div><!--/col-xs-3-->
+
+    <section class="col-xs-8 newsTitle">
+        <h4>
+            <a href="/news/new-fast-track-courses" class="imageLink">
+                Нови Fast track курсове: запишете се до 4 юни
+            </a>
+
+            <small class="date">
+                <span class="iconPostDate"></span>21/05/2014
+            </small>
+        </h4>
+    </section><!--/col-xs-9-->
+</div>                <div>
+                    <a href="/news" class="aboutUsBtn seeAll">Виж всички</a>
+                </div>
+        </section>
+    </div>
+</div><!-- /.content -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+<script src="../../Scripts/lazyPainter.js"></script>
+<script src="../../Scripts/animationSlider1.js"></script>
+
+    </div>
+
+    <footer>
+        <div class="col-sm-12">
+            <div class="container">
+                <div class="col-sm-2 actions">
+                    <a href="/users/candidate/register">Кандидатствай</a>
+                    <a href="/trainings/fasttracks">Fast track курсове</a>
+                </div><!-- /col-sm-2 -->
+                <div class="col-sm-2">
+                    <h2>За университета</h2>
+                    <ul>
+                        <li><a href="/about">За нас</a></li>
+                        <li><a href="/professions">Професии</a></li>
+                        <li><a href="/plans">Планове</a></li>
+                        <li><a href="/partner-universities">Университети-партньори</a></li>
+                        <li><a href="/trainers">Преподаватели</a></li>
+                        <li><a href="/dorms">Общежития</a></li>
+                        <li><a href="/apply">Кандидатстване</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h2>Нашите приятели</h2>
+                    <ul>
+                        <li><a href="http://nakov.com/">Светлин Наков блог</a></li>
+                        <li><a href="http://introprogramming.info/">C# книга</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h2>Software University Learning System - 1.0.5298</h2>
+                    <span>© 2013-2014  - Software University. All Rights Reserved.</span><br /><br />
+                    <ul class="social clearfix">
+                        <li><a title="Twitter" target="_blank" href="https://twitter.com/softunibg"><img alt="Twitter" src="/Content/design/twitter.png"></a></li>
+                        <li><a title="Facebook" target="_blank" href="https://www.facebook.com/SoftwareUniversity"><img alt="Facebook" src="/Content/design/facebook.png"></a></li>
+                        <li><a title="Google Plus" target="_blank" href="https://plus.google.com/+SoftuniBg"><img alt="Google Plus" src="/Content/design/googleplus.png"></a></li>
+                    </ul>
+                </div><!-- /col-sm-3 -->
+                <div id="fb-like-box-wrapper" class="col-sm-3">
+                    <div class="fb-like-box"
+                         data-href="https://www.facebook.com/SoftwareUniversity"
+                         data-width="286"
+                         data-height="200"
+                         data-header="false"
+                         data-colorscheme="light"
+                         data-show-faces="true"
+                         data-stream="false"
+                         data-show-border="false">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <div id="fb-root"></div>
+
+
+
+
+
+
+    
+    
+</body>
+</html>
