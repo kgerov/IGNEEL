@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Пеенье</title>
+	<base href="http://megashop.bg/oki/">
+	<link href="//fonts.googleapis.com/css?family=Playball:400" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="test2.css">
+	<meta charset="utf-8" />
+</head>
+<body>	
+    
+		    <div class="logo"><a href="index.html" ><img src="softuniLOGoNakov.png"></a></div>
+			<div class="header"></div>
+			<nav>
+				<ul>
+					<li><a href="novini.html" style="">Новини</a></li>
+					<li><a href="#">За градината</a>
+						<ul>
+						<li><a  href="za_nas.html">За нас</a></li>
+                        <li><a  href="planove.html">Планове</a></li>
+						<li><a  href="partniori.html">Партньори</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Обучения</a>
+						<ul>
+							<li><a href="zaddivjitelni.html">Задължителни обучения</a></li>
+							<li><a href="obucheniePKP.html">ПКП</a></li>
+							<li><a href="obuchenieLeksika.html">Лексика</a></li>
+							<li><a href="obuchenieDopdivnenie.html">Допълнителни обучения</a></li>
+							<li><a href="peenie.html">Пеенье</a></li>
+							<li><a href="palatka.html">Как да скочим върху палатка(Юли 2015)</a></li>
+						</ul>
+					</li>
+					<li><a href="kontakti.html">Контакти</a></li>
+				</ul>
+			</nav>
+	<div class="clr">&nbsp;</div>
+	<div class="content">
+		<div class="Header_title"><!--position abselute--></div>
+		<div class="clr">&nbsp;</div>
+		<div class="centralnoPole">
+		<p> Този допълнителен курс обогатява културата на малките. Придобиват умения като правилно пеене + чувство за ритъм и такт, което се губи най-вече, 
+		когато две групи се надпяват или някой реши да се вживее в своето солово изпълнение.</p> 
+		<p>Препоръчително е този допълнителен курс да се запише след задължителното
+		обучение по ПКП. Тогава децата придобиват изключителна креативност и желание за демонстриране на певчески способности
+. 		<p>Изучваните песнички, можете да разгледате в приложения по-долу линк, а за по-любопитните
+		прилагаме специална изява на един от ръководителите + клип на една от песните, които ще бъдат изучавани.</p>
+		<p>Песнопойка:<a class="block1" href="pesnopoika.docx">Линк</a></p>
+		<video width="320" height="240" controls>
+			<source src="Malinka.mp4" type="video/mp4">
+		</video> 
+		</div>
+	</div>
+	<div class="clr">&nbsp;</div>
+	<footer  class="footh">
+			<div class="footh1" ><h2>За IGNEEL   </h2><a href="IGNEEL.html">Кои са те?</a></div>
+                <div class="footh1"><h2>Нашите приятели:   </h2>
+                <a href="http://chipolino.com/">Chipolino</a><br><a href="https://softuni.bg/">Software University</a>
+                </div>
+    </footer>	
+</body>
+</html>
+
+
+
+
